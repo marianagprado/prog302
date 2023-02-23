@@ -1,4 +1,4 @@
-from ac_classe_pessoa import *
+from classe_pessoa import *
 
 # teste da classe
 p1 = Pessoa(nome = "João da Silva", email = "josilva@gmail.com",  
