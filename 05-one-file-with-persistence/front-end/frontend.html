@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Listagem de pessoas</title>
+</head>
+
+<body>
+
+    <!--
+
+        INCLUIR PESSOA: FORMULÁRIO
+
+    -->
+
+    Incluir pessoa:
+    <form id="meuformularioquerido" onsubmit="return false;">
+        <p>
+            Nome: <input type="text" id="nome" name="nome" value="Maria Oliveira">
+        </p>
+        <p>
+            Email: <input type="text" id="email" name="email" value="maliv@gmail.com">
+        </p>
+        <p>
+            Telefone: <input type="text" id="telefone" name="telefone" value="47 91234 6789">
+        </p>
+        <button id="btIncluir"">
+            Incluir!!
+        </button>
+
+        <span id="mensagem" style="background-color:lightgreen;"></span>
+    </form>
+
+    <hr>
+
+    <!--
+
+        LISTAR PESSOAS
+
+    -->
+
+    Listagem de pessoas:
+    <hr>
+    <div id="listagem"></div>
+
+    <!-- 
+        
+        SCRIPTS 
+    
+    -->
+
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
+    <script type="module" src="js/incluir_pessoa.js"></script>
+    <script type="module" src="js/listar_pessoas.js"></script>
+
+
+</body>
+
+</html>
