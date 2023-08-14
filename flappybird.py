@@ -24,5 +24,4 @@ db.create_all()
 
 print("Tabelas criadas")
 
-c1= Cena ( obstaculo= x=20, y=50, b=30, h=10
-)
+c1= Cena ( obstaculos= "20, 50, 30, 10")
